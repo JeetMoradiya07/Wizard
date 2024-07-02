@@ -475,8 +475,10 @@ footer a:hover {
         display: none;
         margin-top: 50px;
         width: 40vw;
+        hight: 100%;
         transition: 0.5s;
         right: 0;
+        box-shadow: 0 10px 10px #6262627b;
     }
 
     #nav-icon {
