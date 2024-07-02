@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#diets-and-recipes {
+    background-image: url(./Images/home_diet_sectionbg4.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+#diets-and-recipes h1 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #fff;
+    padding: 200px 40px;
+}
+
+#Cras1 {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 40px 40px;
+    border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);
+}
+
+#Cras1 i::before {
+    content: '\e8d1';
+}
+
+.contact-cras {
+    display: flex;
+}
+
+.contact-cras i {
+    font-size: 80px;
+    color: #7fbd5d;
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.contact-cras a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+#Cras2 {
+    display: flex;
+    width: 58%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Cras2 h1 {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #000;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+#Cras2 p {
+    text-align: center;
+}
+
+#Cras2 hr {
+    display: block;
+    width: 20%;
+    height: 7px;
+    background: #7fbd5d;
+    margin: 0 auto;
+    margin: 15px 0;
+}
+
+#Cras2 form {
+    width: 100%;
+}
+
+#Cras2 input,
+textarea {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#Cras2 textarea {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+    height: 200px;
+}
+
+#Cras2 button {
+    background: #7fbd5d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+#Cras2 input:focus,
+textarea:focus {
+    border: 1px solid hsla(0, 0%, 38%, 0.3);
+}
+
+#text-mail {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-mail input {
+    width: 49%;
+}
+
+#cooking-head {
+    margin-top: 100px;
+}
+
+@media screen and (max-width:768px) {
+    #diets-and-recipes h1 {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 100px 0px;
+    }
+
+    #Cras1 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #Cras2 {
+        width: 90%;
+    }
+}
