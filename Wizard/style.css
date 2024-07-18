@@ -19,7 +19,7 @@ html {
     scroll-behavior: smooth;
 }
 
-::selection{
+::selection {
     color: #fff;
     background-color: var(--secondary-bgcolor);
 }
@@ -399,7 +399,8 @@ header {
     background-color: var(--secondary-bgcolor);
     color: #fff;
 }
-#about-us button a{
+
+#about-us button a {
     color: #fff;
     text-decoration: none;
 }
@@ -498,7 +499,7 @@ footer a:hover {
         height: 25px;
         margin: auto 25px;
     }
- 
+
     #nav-icon {
         display: block;
     }
